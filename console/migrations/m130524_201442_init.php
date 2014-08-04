@@ -29,6 +29,9 @@ class m130524_201442_init extends Migration
 
     public function down()
     {
-        $this->dropTable('{{%user}}');
+        //$this->dropTable('{{%user}}');
+        
+        echo "m130524_201442_init cannot be reverted.\n";
+        return false;
     }
 }
