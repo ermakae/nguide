@@ -36,33 +36,27 @@ The minimum requirement by this application template that your Web server suppor
 INSTALLATION
 ------------
 
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `advanced` that is directly under the Web root.
-
-Then follow the instructions given in "GETTING STARTED".
-
-
-### Install via Composer
-
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
-
-You can then install the application using the following command:
-
+1) Clone:
 ~~~
-php composer.phar create-project ...
+git clone https://github.com/ermakae/nguide.git
+~~~
+
+2) Create Project
+~~~
+php composer.phar create-project
 ~~~
 
 OR for windows:
 ~~~
-"path/to/php.exe" "path/to/composer" create-project ...
+"path/to/php.exe" "path/to/composer" create-project
 ~~~
 example:
 ~~~
-"C:\PHP\php.exe" "C:\ProgramData\Composer\bin\composer.phar" create-project ...
+"C:\PHP\php.exe" "C:\ProgramData\Composer\bin\composer.phar" create-project
 ~~~
+
+If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
+at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
 GETTING STARTED
 ---------------
