@@ -1,0 +1,43 @@
+{
+    "name": "ermakae/nguide",
+    "description": "Geo guide",
+    "keywords": ["guide"],
+    "homepage": "http://none/",
+    "type": "project",
+    "license": "",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "kartik-v/yii2-grid": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "suggest": {
+        "codeception/codeception": "Codeception, 2.0.* is currently works well with Yii.",
+        "codeception/specify": "BDD style code blocks for PHPUnit and Codeception",
+        "codeception/verify": "BDD Assertions for PHPUnit and Codeception",
+        "yiisoft/yii2-faker": "Fixtures generator for Yii2 based on Faker lib"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::setPermission"
+        ]
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "writable": [
+            "backend/runtime",
+            "backend/web/assets",
+            "frontend/runtime",
+            "frontend/web/assets"
+        ]
+    }
+}
